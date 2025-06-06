@@ -1,6 +1,12 @@
+package com.edupago.model;
+
 import org.apache.commons.math3.analysis.function.Identity;
 
-Identity
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
+@Entity
 public class Usuario {
     @Id @GeneratedValue
     private Long id;
